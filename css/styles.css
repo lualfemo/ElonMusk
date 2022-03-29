@@ -16,21 +16,32 @@ h1 {
     font-size: 7rem;
     margin-top: 40px;
 }
+.text{
+    font-size: 1.8rem;    
+}
+
 
 #main {
-    width: 100%;
     height: 150rem;
     background-color: #caf0f8;
     display: flex;
     margin: 20px auto;
-    width: 98%;
+    width: 99%;
     border-radius: 10px;
     justify-content: center;
 }
 
 #title {
+    width: 98%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     border: 1px solid blue;
+    text-align: center;
+    align-items: center;
+}
 
+#img-div {
+    width: 98%;
+    height: 50rem;
+    border: 1px solid purple;
 }

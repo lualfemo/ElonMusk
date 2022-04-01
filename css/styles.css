@@ -38,15 +38,21 @@ h1 {
     flex-direction: column;
     text-align: center;
     align-items: center;
+
 }
 
 #img-div {
+    display: flex;
     width: 98%;
     height: auto;
     margin-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #image {
+    display: block;
     max-width: 100%;
     height: auto;
     box-shadow: 4px 5px 22px 5px #000000;
